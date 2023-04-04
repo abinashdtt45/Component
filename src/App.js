@@ -4,6 +4,7 @@ import AccordionPage from "./pages/AccordionPage";
 import Route from "./components/Route";
 import SideBar from "./components/Sidebar";
 import ModalPage from "./pages/ModalPage";
+import TablePage from "./pages/TablePage";
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
         </Route>
         <Route path="/modal">
           <ModalPage />
+        </Route>
+        <Route path="/table">
+          <TablePage />
         </Route>
       </div>
     </div>
